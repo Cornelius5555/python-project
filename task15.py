@@ -3,8 +3,8 @@ Write a program that takes input of someone's basic salary and benefits,
 adds them to find the gross salary then uses  the gross salary to find the NHIF. """
 
 
-basic_salary = int(input("Enter basic aslary: "))
-benefits = int(input("Enter benefits: "))
+basic_salary = float(input("Enter basic aslary: "))
+benefits = float(input("Enter benefits: "))
 gros_salary = basic_salary + benefits
 print(gros_salary)
 
